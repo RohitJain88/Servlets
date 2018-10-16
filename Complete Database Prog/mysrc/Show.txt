@@ -1,0 +1,18 @@
+<html>
+<title>Show</title>
+
+<body>
+<form name="f" action="http://localhost:8080/mysrc/home">
+<table bgcolor="pink" border="1">
+<tr>
+<td>Show<input name="num"></td>
+</tr>
+<tr>
+<td>Name<input name="s"></td>
+</tr>
+
+
+
+</form>
+</body>
+</html>

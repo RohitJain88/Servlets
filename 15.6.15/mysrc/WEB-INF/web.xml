@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">  
+
+    <description>
+      Servlet and JSP Examples.
+    </description>
+    <display-name>MySrc Example</display-name>
+  
+    <!-- Define servlets that are included in the example application -->
+
+    <servlet>
+      <servlet-name>MyGenericServlet</servlet-name>
+      <servlet-class>MyGenericServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>MyGenericServlet</servlet-name>
+        <url-pattern>/MyGenericServlet</url-pattern>
+    </servlet-mapping>
+       <servlet>
+          <servlet-name>GenericServletAdd</servlet-name>
+          <servlet-class>GenericServletAdd</servlet-class>
+        </servlet>
+        
+        <servlet-mapping>
+            <servlet-name>GenericServletAdd</servlet-name>
+            <url-pattern>/abc</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+              <servlet-name>GenericServletSquare</servlet-name>
+              <servlet-class>GenericServletSquare</servlet-class>
+            </servlet>
+            
+            <servlet-mapping>
+                <servlet-name>GenericServletSquare</servlet-name>
+                <url-pattern>/mysquare</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+                  <servlet-name>GenericServletLogin</servlet-name>
+                  <servlet-class>GenericServletLogin</servlet-class>
+                </servlet>
+                
+                <servlet-mapping>
+                    <servlet-name>GenericServletLogin</servlet-name>
+                    <url-pattern>/mylogin</url-pattern>
+    </servlet-mapping>
+    <servlet>
+                      <servlet-name>GenericServletLogin</servlet-name>
+                      <servlet-class>GenericServletLogin</servlet-class>
+                    </servlet>
+                    
+                    <servlet-mapping>
+                        <servlet-name>GenericServletLogin</servlet-name>
+                        <url-pattern>/mylogin1</url-pattern>
+    </servlet-mapping>
+        <servlet>
+                          <servlet-name>GenericServletInsert</servlet-name>
+                          <servlet-class>GenericServletInsert</servlet-class>
+                        </servlet>
+                        
+                        <servlet-mapping>
+                            <servlet-name>GenericServletInsert</servlet-name>
+                            <url-pattern>/myinsert</url-pattern>
+    </servlet-mapping>
+    <servlet>
+                              <servlet-name>GenericServletDelete</servlet-name>
+                              <servlet-class>GenericServletDelete</servlet-class>
+                            </servlet>
+                            
+                            <servlet-mapping>
+                                <servlet-name>GenericServletDelete</servlet-name>
+                                <url-pattern>/mydelete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+                              <servlet-name>GenericServletSearch</servlet-name>
+                              <servlet-class>GenericServletSearch</servlet-class>
+                            </servlet>
+                            
+                            <servlet-mapping>
+                                <servlet-name>GenericServletSearch</servlet-name>
+                                <url-pattern>/mysearch</url-pattern>
+    </servlet-mapping>
+    
+   
+   <servlet>
+                                 <servlet-name>GenericServletUpdate</servlet-name>
+                                 <servlet-class>GenericServletUpdate</servlet-class>
+                               </servlet>
+                               
+                               <servlet-mapping>
+                                   <servlet-name>GenericServletUpdate</servlet-name>
+                                   <url-pattern>/GenericServletUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet>
+                                  <servlet-name>GenericServletShow</servlet-name>
+                                  <servlet-class>GenericServletShow</servlet-class>
+                                </servlet>
+                                
+                                <servlet-mapping>
+                                  <servlet-name>GenericServletShow</servlet-name>
+                                    <url-pattern>/myshow</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

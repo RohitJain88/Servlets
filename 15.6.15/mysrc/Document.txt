@@ -1,0 +1,18 @@
+<html>
+
+<head>
+<title></title>
+</head>
+<body>
+<form action="http://localhost:8080/mysrc/myshow">
+<br>
+<br>
+<table bgcolor="red" border="5" align="center" cellpadding="8">
+<tr><td><input type="button"</td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+</table>
+</form>
+</body>
+</html>

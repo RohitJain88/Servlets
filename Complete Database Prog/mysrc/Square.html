@@ -1,0 +1,31 @@
+<html>
+<title>Square</title>
+<head>
+<script language="javascript">
+function sqr()
+{
+	var a=parseInt(document.f.num.value);
+	var b=a*a;
+	document.f.s.value=b;
+}
+
+
+</script>
+</head>
+<body>
+<form name="f" action="http://localhost:8080/mysrc/xyz">
+<table bgcolor="pink" border="1">
+<tr>
+<td>Number<input name="num"></td>
+</tr>
+<tr>
+<td>Square<input name="s"></td>
+</tr>
+<tr>
+<td><input type="submit" value="sq" onclick="sqr();"></td>
+</tr>
+
+
+</form>
+</body>
+</html>

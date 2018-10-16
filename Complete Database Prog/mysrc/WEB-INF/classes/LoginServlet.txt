@@ -1,0 +1,18 @@
+import javax.servlet.*;
+import  java.io.*;
+import javax.servlet.http.*;
+
+public  class LoginServlet    extends  HttpServlet
+{
+     public  void  init(ServletConfig  sc) throws  ServletException
+     {
+     System.out.println("LoginServlet is initialized");
+     }
+     public  void  doGet(HttpServletRequest  req,HttpServletResponse  res) throws  ServletException,IOException
+       {
+       res.setContentType("text/html");
+       PrintWriter   pw=res.getWriter();
+       String user=req.getParameter(
+       System.out.println("Service is called");
+     }
+}
